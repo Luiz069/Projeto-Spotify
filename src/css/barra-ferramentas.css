@@ -1,0 +1,33 @@
+.bottom-toolbar {
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+  background-color: var(--preto-preto);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
+
+.toolbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+/* .toolbar-item:hover,
+.toolbar-item:focus-within {
+  color: white;
+} */
+
+/* .toolbar-item:focus-within {
+  font-weight: bold;
+}
+
+.toolbar-item i {
+  font-size: 24px;
+} */

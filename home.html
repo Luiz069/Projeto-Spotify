@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Spotify</title>
+    <link rel="stylesheet" href="src/css/style-home.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <!-- Barra de categorias -->
+    <div class="header">
+      <img src="src/imagem/logo/image.png" alt="Logo" />
+      <div class="buttons">
+        <a href="index.html" class="btn active">Tudo</a>
+        <a href="" class="btn inactive">Música</a>
+        <a href="" class="btn inactive">Podcasts</a>
+      </div>
+    </div>
+
+    <!-- Barra de ferramentas fixa -->
+    <div class="bottom-toolbar">
+      <div>
+        <a
+          href="index.html"
+          class="toolbar-item"
+          style="font-weight: bold"
+          tabindex="0"
+        >
+          <i data-lucide="home"></i>
+          <span>Início</span>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="toolbar-item" tabindex="0" style="font-weight: 200">
+          <i data-lucide="search"></i>
+          <span>Buscar</span>
+        </a>
+      </div>
+
+      <div>
+        <a href="#" class="toolbar-item" tabindex="0" style="font-weight: 200">
+          <i data-lucide="library"></i>
+          <span>Biblioteca</span>
+        </a>
+      </div>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
+    <!-- fim barra -->
+
+    <!-- Musicas/playlists recentes -->
+    <section class="secao secao-horizontal">
+      <ul class="playlist">
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art-1.png" alt="" />
+            <h3>Origins/Deluxe</h3>
+          </a>
+        </li>
+
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art-2.png" alt="" />
+            <h3>A Place We Knew</h3>
+          </a>
+        </li>
+
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art-3.png" alt="" />
+            <h3>Emotional Songs</h3>
+          </a>
+        </li>
+
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art-4.png" alt="" />
+            <h3>Augustten Ft Jhesy😇</h3>
+          </a>
+        </li>
+
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art-5.png" alt="" />
+            <h3>Liked Songs</h3>
+          </a>
+        </li>
+
+        <li class="item">
+          <a href="#">
+            <img src="src/imagem/capas/Art.png" alt="" />
+            <h3>1000 Forms Of Fear</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Card de novidade -->
+    <div class="card-grande__container">
+      <div class="card-grande">
+        <img
+          class="card-grande__artista"
+          src="src/imagem/artista/taylor.png"
+          alt=""
+        />
+        <div class="card-grande__descrição">
+          <p class="card-lançamento">Novo lançamento de</p>
+          <h2>Taylor Swift</h2>
+        </div>
+      </div>
+
+      <div class="card-grande__musica">
+        <a href="#">
+          <img src="src/imagem/capas/musica.png" alt="" />
+        </a>
+        <div class="card-grande__links">
+          <a class="card-grande__link" href="#">
+            <p class="card-grande__link-musica">Cruel Summer</p>
+            <p class="card-grande__link-artista">sigle • Taylor Swift</p>
+          </a>
+
+          <div class="container-play">
+            <a class="card-grande__play" href="">
+              <img src="src/imagem/icones/Play.png" alt="" />
+            </a>
+          </div>
+
+          <div class="container-like">
+            <a class="card-grande__like" href="">
+              <img src="src/imagem/icones/Like.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrossel 01 -->
+    <h2 class="categoria">Novos Laçamentos para você</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="card">
+          <a class="link-card" href="">
+            <img
+              class="capa"
+              src="src/imagem/carrossel-musica/capa (4).jpg"
+              alt="Album"
+            />
+            <h3 class="nome-musica">Modo Carreira (feat. Veigh)</h3>
+            <!-- <p class="nome-artista">Supernova</p> -->
+          </a>
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (1).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">So Rock 3</h3>
+          <!-- <p class="nome-artista">Rock Danger</p> -->
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (2).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">SV #18 - Indiscutível</h3>
+          <!-- <p class="nome-artista">Froid</p> -->
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (3).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">Mônaco Freestyle</h3>
+          <!-- <p class="nome-artista">Veigh</p> -->
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- Carrossel 02 -->
+    <h2 class="categoria">Novos Laçamentos para você</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="card">
+          <a class="link-card" href="">
+            <img
+              class="capa"
+              src="src/imagem/carrossel-musica/capa (4).jpg"
+              alt="Album"
+            />
+            <h3 class="nome-musica">Modo Carreira (feat. Veigh)</h3>
+            <!-- <p class="nome-artista">Supernova</p> -->
+          </a>
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (1).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">So Rock 3</h3>
+          <!-- <p class="nome-artista">Rock Danger</p> -->
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (2).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">SV #18 - Indiscutível</h3>
+          <!-- <p class="nome-artista">Froid</p> -->
+        </div>
+        <div class="card">
+          <img
+            class="capa"
+            src="src/imagem/carrossel-musica/capa (3).jpg"
+            alt="Album"
+          />
+          <h3 class="nome-musica">Mônaco Freestyle</h3>
+          <!-- <p class="nome-artista">Veigh</p> -->
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- Carrossel 03 -historico -->
+    <div class="container-categorias">
+      <h2 class="categorias">Recentes</h2>
+      <a href="#" class="categorias__link">Mostrar tudo</a>
+    </div>
+    <div class="carousel-container">
+      <div class="carousel carrossel-recentes">
+        <!-- playlist -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-normal"
+              src="src/imagem/carrossel-musica/Aulas.png"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Aulas</h3>
+            <p class="artista">Playlist</p>
+          </a>
+        </div>
+
+        <!-- Artista -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-redonda"
+              src="src/imagem/carrossel-musica/capa (4).jpg"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Modo Carreira</h3>
+            <p class="artista">Artista</p>
+          </a>
+        </div>
+
+        <!-- Artista -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-redonda"
+              src="src/imagem/Artista/taylor.png"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Taylor Swift</h3>
+            <p class="artista">Artista</p>
+          </a>
+        </div>
+
+        <!-- Artista -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-redonda"
+              src="src/imagem/carrossel-musica/capa (4).jpg"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Modo Carreira</h3>
+            <p class="artista">Playlist</p>
+          </a>
+        </div>
+
+        <!-- playlist -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-normal"
+              src="src/imagem/Playlist/nssmnsb.jpg"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Aulas</h3>
+            <p class="artista">Playlist</p>
+          </a>
+        </div>
+
+        <!-- playlist -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-normal"
+              src="src/imagem/Playlist/nume.png"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Nume</h3>
+            <p class="artista">Playlist</p>
+          </a>
+        </div>
+
+        <!-- playlist -->
+        <div class="card">
+          <a class="link-cards" href="">
+            <img
+              class="capa-normal"
+              src="src/imagem/carrossel-musica/Aulas.png"
+              alt="Album"
+            />
+            <h3 class="nome-musica redonda">Aulas</h3>
+            <p class="artista">Playlist</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </body>
+</html>
