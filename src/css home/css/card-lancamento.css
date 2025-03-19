@@ -98,9 +98,6 @@
     height: 60px;
   }
 
-  .card-grande__descrição {
-  }
-
   .card-grande__musica {
     /* justify-content: flex-start; */
     display: flex;
