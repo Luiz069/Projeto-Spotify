@@ -48,6 +48,7 @@ body {
   background: no-repeat var(--fundo-gradiente);
   min-height: 100vh;
   padding-bottom: 60px;
+  margin-top: 2px;
   width: auto;
   /* right: 0;
   width: 0; */
