@@ -1,0 +1,151 @@
+.rodapé {
+  padding: 8px 0px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------ */
+.Footer__descrição {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding-inline-start: 5px; /* Coloca a "ul" completa com borda 0px fazendo o alinhamento dela*/
+}
+
+.footer__politicas {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.descrição {
+  margin-bottom: 1px;
+}
+
+.descrição ul {
+  padding-inline-start: 0px; /* Coloca a "ul" completa com borda 0px fazendo o alinhamento dela*/
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.titulo {
+  color: var(--branco);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.descrição__conteudo {
+  color: var(--cinza);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.social__links {
+  margin-bottom: 40px;
+}
+
+.Footer-link {
+  display: flex;
+  gap: 24px;
+}
+
+.link__icones {
+  width: 40px;
+  height: 40px;
+  background-color: #222; /* Cor de fundo do círculo */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease-in-out;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* ----------------------------------------------------------------- */
+.rodape-licenças {
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-inline-start: 5px; /* Coloca a "ul" completa com borda 0px fazendo o alinhamento dela*/
+}
+
+.rodapé-politicas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.licenças-item {
+  margin-right: 16px;
+  margin-block-end: 10px;
+}
+
+.licenças-item span {
+  font-size: 0.879rem;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+/* ------------------------------------------------------------------- */
+
+.rodape-certificação {
+  flex: 0 0 auto;
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: end;
+  align-items: end;
+  color: var(--text-subdued, #656565);
+}
+
+.certificação {
+  padding-right: 16px;
+}
+
+.certificação__texto {
+  color: var(--cinza);
+  font-size: 14px;
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+
+/* ------------------------------------------------------------------ */
+.rodapé-idioma {
+  display: flex;
+}
+
+/* ----------------------- */
+.rodapé-idioma button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px; /* Espaço entre o ícone e o texto */
+
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0.5px solid var(--cinza);
+  border-radius: 9999px;
+  padding: 6px 10px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.bi-globe {
+  width: 16px; /* Ajuste conforme necessário */
+  height: 16px;
+  vertical-align: middle;
+}
+
+.idioma {
+  font-size: 13px;
+}
